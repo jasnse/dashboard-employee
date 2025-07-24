@@ -62,7 +62,7 @@ export default function FormActivity() {
       <h2 className="text-xl font-bold text-[#184A72] mb-4">Input Aktivitas Hari Ini</h2>
 
       <div className="mb-3">
-        <label className="block text-sm font-semibold mb-1">Jam Masuk</label>
+        <label className="block text-sm font-semibold mb-1 text-[#184A72]">Jam Masuk</label>
         <input
           type="time"
           className="w-full border px-3 py-2 rounded text-black"
@@ -73,7 +73,7 @@ export default function FormActivity() {
       </div>
 
       <div className="mb-3">
-        <label className="block text-sm font-semibold mb-1">Jam Pulang</label>
+        <label className="block text-sm font-semibold mb-1 text-[#184A72]">Jam Pulang</label>
         <input
           type="time"
           className="w-full border px-3 py-2 rounded text-black"
@@ -84,7 +84,7 @@ export default function FormActivity() {
       </div>
 
       <div className="mb-3">
-        <label className="block text-sm font-semibold mb-1">Status Kerja</label>
+        <label className="block text-sm font-semibold mb-1 text-[#184A72]">Status Kerja</label>
         <select
           className="w-full border px-3 py-2 rounded text-black"
           value={status}
@@ -99,7 +99,7 @@ export default function FormActivity() {
 
       {/* ✅ input catatan aktivitas */}
       <div className="mb-4">
-        <label className="block text-sm font-semibold mb-1">Aktivitas Hari Ini</label>
+        <label className="block text-sm font-semibold mb-1 text-[#184A72]">Aktivitas Hari Ini</label>
         <textarea
           className="w-full border px-3 py-2 rounded text-black"
           rows={4}
