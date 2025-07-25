@@ -1,9 +1,9 @@
 [build]
-  publish = ".next"  # Ganti dengan nama folder output build aplikasi kamu, misalnya "dist" atau "build"
-  command = "npm run build"  # Ganti dengan perintah build yang sesuai dengan proyek kamu
+  publish = ".next"  
+  command = "next build"  
 
 [[redirects]]
   from = "/*"
-  to = "/index.html"
+  to = "/login.tsx"
   status = 200
   force = true
