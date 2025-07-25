@@ -1,0 +1,9 @@
+[build]
+  publish = "build"  # Ganti dengan nama folder output build aplikasi kamu, misalnya "dist" atau "build"
+  command = "npm run build"  # Ganti dengan perintah build yang sesuai dengan proyek kamu
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = true
