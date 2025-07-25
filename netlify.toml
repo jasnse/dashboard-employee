@@ -1,6 +1,5 @@
 [[redirects]]
-from = "/"
-to = "/login"
-status = 302
-force = true
-
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = true
