@@ -1,14 +1,12 @@
 [build]
-command = "next build && next export"
+command = "next build"
 publish = "out"
 
-# Redirect root to /login
 [[redirects]]
   from = "/"
   to = "/login"
   status = 301
 
-# Handle client-side routes (e.g., /dashboard)
 [[redirects]]
   from = "/*"
   to = "/:splat"
