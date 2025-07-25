@@ -1,5 +1,15 @@
+[build]
+command = "next build && next export"
+publish = "out"
+
+# Redirect root to /login
+[[redirects]]
+  from = "/"
+  to = "/login"
+  status = 301
+
+# Handle client-side routes (e.g., /dashboard)
 [[redirects]]
   from = "/*"
-  to = "/index.html"
+  to = "/:splat"
   status = 200
-  force = true
