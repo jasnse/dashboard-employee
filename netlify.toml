@@ -1,9 +1,5 @@
-[build]
-  publish = ".next"  
-  command = "next build"  
-
 [[redirects]]
   from = "/*"
-  to = "/login.tsx"
+  to = "/index.html"
   status = 200
   force = true
